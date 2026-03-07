@@ -38,7 +38,7 @@ int main() {
     // 2. Show listunspent for Address B
     cout << "\n--- Listing UTXO for Address B ---" << endl;
     string utxo_list = exec(("listunspent 1 999 '[\"" + addr_b + "\"]'").c_str());
-    cout << utxo_list << endl; // Explicitly printing the JSON for the professor
+    cout << utxo_list << endl; 
 
     // Extracting values for transaction creation
     string txid = get_json_val(utxo_list, "txid");
