@@ -3,8 +3,8 @@
 ## Team Members
 - **Sriniketan Prabandham** — 240001052  
 - **Khaled** — 240001041  
-- **Malthum Thanush** — 240005051  
-- **Vivek Sahu** — 240005028  
+- **Malthum Thanush** — 240005028 
+- **Vivek Sahu** — 240005051 
 
 ---
 
