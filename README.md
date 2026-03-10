@@ -14,6 +14,20 @@
 
 # Phase 1
 
+### 0. Setup
+Install Docker Desktop. <br>
+Create a container for this project. <br>
+Install the following: <br>
+<li>Ubuntu</li>
+<li>g++ compiler</li>
+<li>curl for downloading from Internet the bitcoind library, btcdeb tools.</li>
+<br>
+Install bitcoind, btcdeb<br>
+Configure the bitcoin.config file as mentioned in requirements<br>
+
+
+
+
 ### 1. Create the Makefile
 ```bash
 cat <<EOF > Makefile
@@ -30,10 +44,6 @@ clean:
 	rm -f part1_raw part1_chain
 EOF
 ```
-ls -a ~/.bitcoin/bitcoin.conf
-cat ~/.bitcoin/bitcoin.conf
-
-make
 
 
 
